@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bem Vindo</title>
+</head>
+<body>
+    <div class="fundo">
+        <div class="left-login">
+            <br><br><br><br><h1>Olá digite seu nome ao lado<br> e escolha uma das opções!</h1>
+            <img src="cruise.svg" class="left-login-image" alt="cruise anima">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Digite seu nome aqui:</h1><h1>
+                <div class="textfield">
+                    <form action="bemvindo.php" method="get">
+                       <div class="inputtext">
+                    <input type="text" id="nome" placeholder="Nome" name="txtNome" class="inputuser" required><br><br>
+                    </div>
+                    <h1>
+                    <fieldset> <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="masculino" value="masculino" checked/>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="feminino" value="feminino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="sexo" value="naoSexo" id="outro">
+                    <label for="outro">Não Informar</label><br><br>
+                    </h1>
+
+                    </fieldset>
+                </div> 
+                <div class="botao">
+                <input type="submit" value="IR" class="cor">  
+                </div>
+            </h1>
+            </div>
+        </div>
+    </form> 
+</div>
+</body>
+</html>
